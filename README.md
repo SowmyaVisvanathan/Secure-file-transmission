@@ -47,11 +47,11 @@ Traditional file transfer methods (FTP, email attachments) have security weaknes
 
 | Component             | Technology                                          |
 | --------------------- | --------------------------------------------------- |
-| Language              | Python (or Java, depending on your implementation)  |
+| Language              | Python                                              |
 | Symmetric Encryption  | AES-256                                             |
 | Asymmetric Encryption | RSA-2048                                            |
 | Integrity Check       | SHA-256                                             |
-| Libraries Used        | `cryptography`, `pycryptodome`, `socket`, `hashlib` |
+| Libraries Used        | cryptography, pycryptodome, socket, hashlib         |
 
 ---
 
