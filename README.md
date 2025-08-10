@@ -25,7 +25,7 @@ Traditional file transfer methods (FTP, email attachments) have security weaknes
 4. **Authentication** – Public-key cryptography to confirm sender and receiver identity.
 
 ---
-
+### 4.
 1. **Sender Side**
 
    * Selects file to send.
@@ -52,6 +52,7 @@ Traditional file transfer methods (FTP, email attachments) have security weaknes
 | Asymmetric Encryption | RSA-2048                                            |
 | Integrity Check       | SHA-256                                             |
 | Libraries Used        | cryptography, pycryptodome, socket, hashlib         |
+| GUI                   | Tkinter                                             |
 
 ---
 
@@ -64,36 +65,6 @@ Traditional file transfer methods (FTP, email attachments) have security weaknes
 
 ---
 
-### **7. Example Use Case**
-
-* A company wants to share **confidential salary slips** with remote employees.
-* The **HR server** runs the receiver script.
-* Employees run the sender script to transmit encrypted files.
-* Only the HR server can decrypt and verify them.
-
----
-
-### **9. Advantages**
-
-* Strong encryption ensures **confidentiality**.
-* Hash verification ensures **integrity**.
-* RSA authentication prevents **impersonation**.
-* Works over **any network**.
-
----
-
-### **10. Future Improvements**
-
-* Add **GUI** for easier use.
-* Implement **multi-file transfer** in a single session.
-* Use **TLS/SSL** for an additional security layer.
-* Add **digital signatures** for non-repudiation.
-
----
-
-If you want, I can also write a **shorter, recruiter-friendly version** of this explanation that you can **paste in your GitHub README under "About the Project"** so it’s crisp but still impressive.
-
-Do you want me to prepare that compact version next?
 
 ## Sender end (encryption):
 <img width="1107" height="607" alt="image" src="https://github.com/user-attachments/assets/5d3e96f6-999e-4431-97ea-83344f193368" />
