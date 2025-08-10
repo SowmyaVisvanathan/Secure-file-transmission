@@ -68,5 +68,6 @@ Traditional file transfer methods (FTP, email attachments) have security weaknes
 
 ## Sender end (encryption):
 <img width="1107" height="607" alt="image" src="https://github.com/user-attachments/assets/5d3e96f6-999e-4431-97ea-83344f193368" />
+
 ## Receiver end (decryption):
 <img width="939" height="642" alt="image" src="https://github.com/user-attachments/assets/d84187e3-281a-4009-b664-62789a4ea353" />
